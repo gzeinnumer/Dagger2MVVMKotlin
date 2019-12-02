@@ -38,7 +38,5 @@ class MainActivity : AppCompatActivity() {
         myViewModel.getMyLiveData().observe(this, Observer {
             text_tv.text = it
         })
-
-
     }
 }
